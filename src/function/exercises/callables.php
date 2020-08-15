@@ -15,3 +15,5 @@ if(true === is_callable(function(){})){
 }else{
     echo 'anonymous function is NOT callable';
 }
+echo PHP_EOL;
+echo strtoupper('foo');
